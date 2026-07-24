@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download Jalali Calendar for KDE Plasma from KDE Store or GitHub.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>Download — Jalali Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">۳۱</span><span>Jalali Calendar</span></a>
+    <button class="menu-button icon-button" type="button" aria-label="Open menu" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-intro">
+      <p class="eyebrow">Get Jalali Calendar</p>
+      <h1>Choose where to install from.</h1>
+      <p>KDE Store is the easiest path and keeps installation close to Plasma. GitHub gives you the source and releases.</p>
+    </section>
+
+    <section class="download-panel" aria-labelledby="download-title">
+      <h2 class="sr-only" id="download-title">Download options</h2>
+      <div class="tabs" role="tablist" aria-label="Download source">
+        <button id="store-tab" class="tab active" type="button" role="tab" aria-selected="true" aria-controls="store-panel">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9h16l-1 11H5L4 9Zm3 0V7a5 5 0 0 1 10 0v2"/></svg>
+          KDE Store
+          <span>Recommended</span>
+        </button>
+        <button id="github-tab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="github-panel" tabindex="-1">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.3 3.5 6.5 6.8 6.9A4.8 4.8 0 0 0 8 18v4M8 19c-3 .9-3-1.5-4-2"/></svg>
+          GitHub
+        </button>
+      </div>
+
+      <div id="store-panel" class="tab-panel" role="tabpanel" aria-labelledby="store-tab">
+        <div class="download-visual store-visual" aria-hidden="true">
+          <span class="large-mark">۳۱</span>
+          <span class="plasma-ring"></span>
+        </div>
+        <div class="download-copy">
+          <p class="panel-label">Recommended</p>
+          <h2>Install from KDE Store</h2>
+          <p>Open the widget listing, then use Plasma’s built-in installer to add Jalali Calendar to your desktop.</p>
+          <a class="button button-primary button-large" data-link="store" href="#" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9h16l-1 11H5L4 9Zm3 0V7a5 5 0 0 1 10 0v2"/></svg>
+            Open KDE Store
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 5h5v5M10 14l9-9M19 14v5H5V5h5"/></svg>
+          </a>
+          <p class="fine-print">Recommended for most Plasma users.</p>
+        </div>
+      </div>
+
+      <div id="github-panel" class="tab-panel" role="tabpanel" aria-labelledby="github-tab" hidden>
+        <div class="download-visual github-visual" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.3 3.5 6.5 6.8 6.9A4.8 4.8 0 0 0 8 18v4M8 19c-3 .9-3-1.5-4-2"/></svg>
+        </div>
+        <div class="download-copy">
+          <p class="panel-label">Source and releases</p>
+          <h2>Continue on GitHub</h2>
+          <p>Review the code, report an issue, contribute, or find the latest files published by the project.</p>
+          <a class="button button-dark button-large" data-link="github" href="#" target="_blank" rel="noreferrer">
+            View on GitHub
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 5h5v5M10 14l9-9M19 14v5H5V5h5"/></svg>
+          </a>
+          <p class="fine-print">For contributors and manual installation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">۳۱</span><span>Jalali Calendar</span></a>
+    <p>Open source software for the KDE community.</p>
+    <nav aria-label="Footer navigation"><a href="download.html">Download</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a data-link="github" href="#">GitHub</a></nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jalali Calendar is a native Persian calendar widget for KDE Plasma.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>Jalali Calendar for KDE Plasma</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Jalali Calendar home">
+      <span class="brand-mark" aria-hidden="true">۳۱</span>
+      <span>Jalali Calendar</span>
+    </a>
+    <button class="menu-button icon-button" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-download" href="download.html">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14"/></svg>
+        Get the widget
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="assets/jalali-calendar-hero2.png" alt="Jalali Calendar on a KDE Plasma desktop, showing Persian dates and selected events">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Made for KDE Plasma</p>
+        <h1>Everything You Need In One Widget.</h1>
+        <p class="hero-copy">Jalali, Gregorian, and Hijri dates, your events, and a clock that fits your panel.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="download.html">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14"/></svg>
+            Download
+          </a>
+          <a class="button button-quiet" href="#features">Explore features
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        </div>
+      </div>
+      <a class="hero-scroll" href="#features" aria-label="Scroll to features">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="feature-intro">
+        <div class="section-heading">
+          <p class="eyebrow">A better desktop calendar</p>
+          <h2>Your calendar, configured your way.</h2>
+          <p>Choose the calendar systems, events, and panel clock format that work for you, all from one Plasma widget.</p>
+        </div>
+        <figure class="settings-preview">
+          <img src="assets/calendar-settings.png" alt="Jalali Calendar settings showing calendar selection, event pane, and clock format controls">
+          <figcaption>Calendar and clock settings</figcaption>
+        </figure>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 3v3m12-3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/></svg>
+          </span>
+          <h3>Three calendar systems</h3>
+          <p>Choose Jalali, Gregorian, or Hijri independently for both your main and secondary calendar.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon accent-red" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 1 0-8 5.66V17l-2 2h12l-2-2v-3.34A6 6 0 0 0 16 8Z"/><path d="M10 22h4"/></svg>
+          </span>
+          <h3>Google Calendar connection</h3>
+          <p>Connect your Google Calendar so your schedule appears alongside local calendar events.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon accent-green" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M9 18h6"/><path d="M6 3v6m12-6v6"/></svg>
+          </span>
+          <h3>Flexible panel clock</h3>
+          <p>Pick from clock and date presets or create a custom format for the CompactRepresentation in your panel.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon accent-gold" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/><path d="m7 5 2 2 3-4m-5 9 2 2 3-4m-5 9 2 2 3-4"/></svg>
+          </span>
+          <h3>Events you care about</h3>
+          <p>Show or hide Persian, Gregorian, Islamic, and ancient Persian events, with separate holiday controls.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div>
+        <p class="eyebrow">Ready when you are</p>
+        <h2>Bring Jalali Calendar to your panel.</h2>
+      </div>
+      <a class="button button-primary" href="download.html">Choose a download
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">۳۱</span><span>Jalali Calendar</span></a>
+    <p>Open source software for the KDE community.</p>
+    <nav aria-label="Footer navigation"><a href="download.html">Download</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a data-link="github" href="#">GitHub</a></nav>
+  </footer>
+</body>
+</html>
